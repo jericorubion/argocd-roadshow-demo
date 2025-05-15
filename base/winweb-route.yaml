@@ -3,7 +3,6 @@ kind: Route
 metadata:
   name: route-dev-webapp
 spec:
-  host: route-dev-webapp-gitops-user1.apps.cluster-6h459.dynamic.redhatworkshops.io
   path: /
   to:
     kind: Service
