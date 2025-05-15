@@ -19,7 +19,4 @@ patches:
       kind: VirtualMachine
       name: database
 
-  - path: dev-route-patch.yaml
-    target:
-      kind: Route
       
