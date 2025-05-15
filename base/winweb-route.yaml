@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Route
 metadata:
-  name: route-dev-webapp
+  name: webapp
 spec:
   path: /
   to:
     kind: Service
-    name: dev-webapp
+    name: webapp
     weight: 100
   port:
     targetPort: 80
