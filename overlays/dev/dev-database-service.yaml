@@ -1,1 +1,3 @@
-
+- op: replace
+  path: /spec/to/name
+  value: dev-database
