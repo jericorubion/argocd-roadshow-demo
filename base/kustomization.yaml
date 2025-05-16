@@ -10,4 +10,5 @@ resources:
 - winweb02-vm.yaml
 - winweb-service.yaml
 - winweb-route.yaml
+- database-service.yaml
 # Challenge TODO: add challenge resources
