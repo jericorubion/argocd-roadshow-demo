@@ -13,4 +13,8 @@ patches:
   - path: prod-vm-patch.yaml
     target:
       kind: VirtualMachine
+
+  - path: prod-webapp-route.yaml 
+    target:
+      kind: Route
       # TODO add for vm patch name: 
