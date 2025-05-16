@@ -23,4 +23,8 @@ patches:
     target:
       kind: Route
 
+  - path: dev-database-service.yaml 
+    target:
+      kind: Service
+
       
