@@ -1,7 +1,7 @@
-apiVersion: v1
+apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
-  name: route-webapp
+  name: route-webap
 spec:
   path: /
   to:
@@ -12,3 +12,6 @@ spec:
   tls:
     insecureEdgeTerminationPolicy: Redirect
     termination: edge
+  port:
+    targetPort: 80
+  alternateBackends: []
