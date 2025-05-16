@@ -4,7 +4,7 @@ metadata:
   name: database
 spec:
   selector:
-    vm.kubevirt.io/name: database
+    vm.kubevirt.io/v1/name: database
   ports:
   - protocol: TCP
     port: 3306
